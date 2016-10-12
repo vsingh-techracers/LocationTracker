@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=98:E3:10:4E:45:24:93:97:BD:54:5A:07:60:DB:11:F9:B7:89:CE:1F%3Bcom.example.rails.myapplication
+
+    You can also add your credentials to an existing key, using this line:
+    98:E3:10:4E:45:24:93:97:BD:54:5A:07:60:DB:11:F9:B7:89:CE:1F;com.example.rails.myapplication
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyD9LCDHSuhXB7p77VPPTVGyoczC0Def6cA
+    </string>
+</resources>
