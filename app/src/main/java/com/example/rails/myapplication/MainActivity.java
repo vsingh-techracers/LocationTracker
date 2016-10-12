@@ -48,14 +48,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         responseTextView.setText("No Processing...");
         init();
     }
-
     private void validation() throws UnsupportedEncodingException {
         String typedUrl = urlEditText.getText().toString();
         String typedName = userNameEditText.getText().toString();
 
             String data = URLEncoder.encode("name", "UTF-8")
                     + "=" + URLEncoder.encode(typedName, "UTF-8");
-
         String text = "";
             BufferedReader reader=null;
             try
