@@ -58,16 +58,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
         String text = "";
             BufferedReader reader=null;
-
-            // Send data
             try
             {
-
-                // Defined URL  where to send data
                 URL url = new URL(typedUrl);
-
-                // Send POST data request
-
                 URLConnection conn = url.openConnection();
                 conn.setDoOutput(true);
                 conn.setDoInput(true);
